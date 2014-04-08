@@ -161,9 +161,11 @@ set ffs=unix,dos,mac
 " => Files, backups and undo
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Turn backup off, since most stuff is in SVN, git et.c anyway...
-set nobackup
-set nowb
-set noswapfile
+" set nobackup
+" set nowb
+" set noswapfile
+set backupdir=~/.vim/tmp,.
+set directory=~/.vim/tmp,.
 
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
